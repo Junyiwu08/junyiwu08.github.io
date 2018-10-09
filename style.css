@@ -11,6 +11,9 @@ header {
     top: 20px;
     left: 20px;
 }
+section{
+    background-attachment: scroll;
+}
 
 h1 {
     font-size: 24px;
@@ -47,4 +50,14 @@ section.jw-3 {
 }
 section.jw-4 {
     background-image:url(jw-4.jpg);
+}
+
+@media (max-width: 600px) {
+    header {
+        top:10px;
+    }
+    footer{
+        bottom: 10px;
+        left: 10px;
+    }
 }
