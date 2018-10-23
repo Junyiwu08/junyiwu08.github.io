@@ -22,13 +22,13 @@ header h2{
     text-align:center;
     top:0;
     margin:0 150px 20px;
-    
 }
 
 header {
     overflow:hidden;
     background-color: orangered;
     position:inherit;
+    background-size:contain;
 }
 
 section.hero img {
@@ -42,12 +42,52 @@ section.photography {
 }
 
 section.photo1 img {
-    width:100%;
+    width:50%;
 }
 
-section.quotes div.quote1 {
-    font-size: 14px;
+section.quotes div {
+    color:orangered;
+    padding:inherit;
+    line-height:1;
+    text-align:justify;
+    font-size:6px;
+    overflow:hidden;
 }
-section.quotes div.quote2 {
-    font-size: 14px;
+
+section.photo2 img {
+    width:50%;
+}
+
+section.quotes2 div {
+    float:left;
+    width:50%;
+    color:orangered;
+    padding:inherit;
+    line-height:1;
+    text-align:justify;
+    font-size:8px;
+}
+
+section.photo3 img {
+    width:50%;
+}
+
+section.quotes3 div {
+    float:left;
+    width:50%;
+    color:orangered;
+    padding:inherit;
+    line-height:1;
+    text-align:justify;
+    font-size:10px
+}
+
+section.photo4 img {
+    width:50%;
+}
+
+footer {
+    background-color:orangered;
+    background-size:cover;
+    padding: 20px;
 }
