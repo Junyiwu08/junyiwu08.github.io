@@ -1,59 +1,53 @@
-@import url('https://fonts.googleapis.com/css?family=Lora');
+@import url('https://fonts.googleapis.com/css?family=David+Libre:400,700');
 
-body {
-    font-family: 'lora';
+body{
+    font-family: 'David Libre';
     font-size: 18px;
     line-height: 1.5;
+    color:#48353a;
+    text-align: center;
+}
+
+header h1 {
+    float:left;
+    padding: 0 20px 0 0;
+}
+
+header nav{
+    float:right;
+    padding: 0 0 0 30px;
+}
+
+header h2{
+    text-align:center;
+    top:0;
+    margin:0 150px 20px;
     
-    width: 640px;
-    margin: 40px auto;
 }
 
-nav{
-    background-color: #f05d5d;
-    padding: 20px 40px 20px 40px; 
+header {
+    overflow:hidden;
+    background-color: orangered;
+    position:inherit;
 }
 
-nav a{
-    color: #ffffff;
-    text-decoration: none;
-    margin:0px 15px 0px 0px;
-    border-bottom: 2px solid #f05d5d;
-    
+section.hero img {
+    width:100%;
 }
 
-nav a:hover {
-    color:#5000ff;
-    border-bottom:2px solid #ffffff;
+section.photography {
+    font-size: 20px;
+    color:orangered;
+    padding:30px;
 }
 
-section {
-    background-color: #5000ff;
-    padding: 40px;
-    color:#ffffff;
+section.photo1 img {
+    width:100%;
 }
 
-section.fullbleed {
-    padding: 0;
+section.quotes div.quote1 {
+    font-size: 14px;
 }
-
-section.fullbleed img{
-    width: 100%;
-}
-h1,h2{
-    font-size:36px;
-    line-height: 1.3;
-}
-
-h2{
-    font-style: italic;
-    margin: 20px 0px 20px 0px;
-}
-
-@media (max-width:700px) {
-    body{
-        font-size:16px;
-        width:auto;
-        margin:0;
-    }
+section.quotes div.quote2 {
+    font-size: 14px;
 }
