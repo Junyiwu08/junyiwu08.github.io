@@ -74,3 +74,71 @@ a.button:hover {
     background-color: #eeae9f;
     color: #ffffff;
 }
+
+section.flowers {
+    overflow:hidden;
+}
+
+section.flowers img {
+    float: left;
+    width: 33.33%;
+}
+
+
+section.quotes {
+    overflow:hidden;
+}
+
+section.quotes div {
+    float:left;
+    width:50%;
+    padding: 40px 120px 60px;
+}
+
+section.quotes div.quote1 {
+    background-color: #f7f1ee;
+}
+
+section.quotes img {
+    width: 75px;
+    border-radius: 50px;
+}
+
+section.quotes h2 {
+    font-weight: 700;
+    font-size: 24px;
+    padding: 20px 0;
+}
+
+section.fullbleed img {
+    width: 100%;
+}
+
+section.brands {
+    background-color: #eeae9f;
+    color:#ffffff;
+    padding: 40px 0px;
+}
+
+section.brands h3 {
+    font-weight: 700;
+    margin-bottom: 20px; 
+}
+
+section.brands img {
+    margin: 0 10px 0 10px;
+}
+
+footer img {
+    float:left;
+}
+footer p {
+    float:right;
+    color: whitesmoke;
+    font-size:12px;
+}
+footer {
+    background-color:dimgray;
+    overflow:hidden;
+    padding: 10px 10px 10px 10px;
+}
