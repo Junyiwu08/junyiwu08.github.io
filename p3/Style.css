@@ -135,10 +135,10 @@ footer img {
 footer p {
     float:right;
     color: whitesmoke;
-    font-size:12px;
+    font-size:13px;
 }
 footer {
     background-color:dimgray;
     overflow:hidden;
-    padding: 10px 10px 10px 10px;
+    padding: 20px;
 }
