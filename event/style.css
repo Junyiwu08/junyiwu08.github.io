@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=David+Libre:400,700');
-
+*{
+    box-sizing:border-box;
+}
 body{
     font-family: 'David Libre';
     font-size: 18px;
@@ -51,10 +53,16 @@ section.quotes{
     line-height:1.5;
     font-size:20px;
     max-width: 50%;
-    padding-left:auto;
-    font-size:8px;
+    min-width: 300px;
+    margin:auto;
+    font-size:13px;
     text-align:justify;
-    padding:0 300px;
+}
+
+.quote1, .quote2 {
+    width: 50%;
+    float:left;
+    padding: 10px;
 }
 
 section.photo2 img {
@@ -62,34 +70,13 @@ section.photo2 img {
     width:50%;
 }
 
-section.quotes2 {
-    color:orangered;
-    line-height:1.5;
-    font-size:20px;
-    max-width: 50%;
-    padding-left:auto;
-    font-size:8px;
-    text-align:justify;
-    padding:0 300px;
-}
 
 section.photo3 img {
     width:50%;
 }
 
-section.quotes3 div {
-    color:orangered;
-    line-height:1.5;
-    font-size:20px;
-    max-width: 50%;
-    padding-left:auto;
-    font-size:8px;
-    text-align:justify;
-    padding:0 300px;
-}
-
 section.photo4 img {
-    width:50%;
+    width:60%;
 }
 
 footer {
@@ -107,4 +94,8 @@ footer a {
 
 footer:hover {
     background-color:black;
+}
+
+footer h1{
+    color:white;
 }
