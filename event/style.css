@@ -56,6 +56,10 @@ section.photography {
     padding:30px;
 }
 
+section.photography:hover {
+    color:fuchsia;
+}
+
 section.photo1 img {
     width:50%;
     min-width:400px;
