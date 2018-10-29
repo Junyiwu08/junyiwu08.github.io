@@ -43,6 +43,7 @@ header {
     background-color: orangered;
     position:inherit;
     background-size:contain;
+    height: 360px;
 }
 
 section.hero img {
@@ -61,7 +62,7 @@ section.photo1 img {
 }
 
 section.quotes{
-    color:orangered;
+    color:black;
     line-height:1.5;
     font-size:20px;
     max-width: 50%;
@@ -84,13 +85,11 @@ section.photo2 img {
 }
 
 .quote1:hover{
-    color: white;
-    background-color:#48353a;
+    color: orangered;
 }
 
 .quote2:hover{
-    color: white;
-    background-color:#48353a;
+    color: orangered;
 }
 
 section.photo3 img {
@@ -103,20 +102,28 @@ section.photo4 img {
     min-width:400px;
 }
 
+.location {
+    color:black;
+    margin: 50px;
+}
+
+.location:hover {
+    color:fuchsia
+}
 footer {
     background-color:orangered;
-    background-size:1000px;
-    height:270px;
+    height:300px;
     padding: 20px;
     margin-bottom:0px;
 }
 
-footer a {
+footer h1 {
     text-decoration: none;
     color:white;
     float:left;
-    padding:200px 1px 0 1px;
+    padding:230px 1px 0 1px;
 }
+
 
 footer:hover {
     background-color:#48353a;
