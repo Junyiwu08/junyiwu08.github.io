@@ -94,7 +94,7 @@ section.photo4 img {
 
 footer {
     background-color:orangered;
-    background-size:cover;
+    background-size:contain;
     padding: 20px;
     margin-bottom:0px;
 }
