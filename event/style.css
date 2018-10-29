@@ -15,9 +15,17 @@ header h1 {
     padding: 0 20px 0 0;
 }
 
+header h1:hover {
+     border-bottom: 2px solid #ffffff;
+}
+
 header nav{
     float:right;
     padding: 0 0 0 30px;
+}
+
+header nav:hover {
+     border-bottom: 2px solid #ffffff;
 }
 
 header h2{
@@ -27,6 +35,9 @@ header h2{
     max-width:220px;
 }
 
+header h2:hover {
+    color: white;
+}
 header {
     overflow:hidden;
     background-color: orangered;
@@ -46,6 +57,7 @@ section.photography {
 
 section.photo1 img {
     width:50%;
+    min-width:400px;
 }
 
 section.quotes{
@@ -53,7 +65,7 @@ section.quotes{
     line-height:1.5;
     font-size:20px;
     max-width: 50%;
-    min-width: 300px;
+    min-width: 400px;
     margin:auto;
     font-size:13px;
     text-align:justify;
@@ -68,20 +80,33 @@ section.quotes{
 section.photo2 img {
     float:center;
     width:50%;
+    min-width:400px;
 }
 
+.quote1:hover{
+    color: white;
+    background-color:#48353a;
+}
+
+.quote2:hover{
+    color: white;
+    background-color:#48353a;
+}
 
 section.photo3 img {
     width:50%;
+    min-width:400px;
 }
 
 section.photo4 img {
     width:60%;
+    min-width:400px;
 }
 
 footer {
     background-color:orangered;
-    background-size:contain;
+    background-size:1000px;
+    height:270px;
     padding: 20px;
     margin-bottom:0px;
 }
@@ -90,12 +115,9 @@ footer a {
     text-decoration: none;
     color:white;
     float:left;
+    padding:200px 1px 0 1px;
 }
 
 footer:hover {
     background-color:black;
-}
-
-footer h1{
-    color:white;
 }
