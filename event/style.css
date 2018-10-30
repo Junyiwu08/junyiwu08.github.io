@@ -47,9 +47,20 @@ header {
     background-color: orangered;
     position:inherit;
     background-size:contain;
-    height: 700px;
+    height: 800px;
 }
 
+section.about a {
+    font-size:30px;
+    padding: 5px;
+    margin: 0 10px 0 10px;
+    color:#48353a;
+    text-decoration: none;
+}
+
+section.about a:hover{
+    color:white;
+}
 section.hero img {
     width:100%;
 }
