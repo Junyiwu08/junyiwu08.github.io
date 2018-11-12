@@ -1,6 +1,9 @@
 * {
     box-sizing: border-box;
 }
+img {
+    max-width: 100%;
+}
 
 body {
     font-family: Georgia;
@@ -14,4 +17,40 @@ header {
     background-color:#000000;
     color:#ffffff;
     border-top: 4px solid #feea34;
+}
+
+div.wrap {
+    max-width: 960px;
+    margin: 0 auto 0 auto;
+    overflow: hidden;
+}
+
+header h1 {
+    float: left;
+    width: 75px;
+}
+
+header nav{
+    float: right;
+}
+
+section.hero {
+    background-image: url(image_1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color:#bfbfb7;
+    
+    padding: 90px 0 100px 0;
+}
+
+section.hero h2{
+    font-size: 36px;
+    font-weight:700;
+    max-width: 480px;
+}
+
+section.hero h3{
+    font-size: 24px;
+    max-width: 400px;
+    margin: 20px 0 0 0;
 }
