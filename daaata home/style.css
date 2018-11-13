@@ -35,9 +35,14 @@ header nav{
 }
 
 header nav a{
+    font-size:20px;
     text-decoration: none;
     color:#ffffff;
-    margin:0 15px
+    margin:0 25px;
+}
+
+header nav a:hover {
+    border-bottom:1px solid #ffffff;
 }
 
 section.hero {
@@ -46,11 +51,17 @@ section.hero {
     background-color:#181818;
     color:#ffffff;
     
-    padding: 9px 0 100px 0;
+    padding: 10px 0 10px 0;
 }
 
 section.hero h1{
     float:left;
     position:relative;
-    padding: 0 20px;
+    padding: 1px 8px;
+    transition: color;
+    margin:0 6px;
+}
+
+section.hero h1:hover {
+    color:#feea34;
 }
