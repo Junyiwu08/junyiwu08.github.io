@@ -24,7 +24,9 @@ div.wrap {
     overflow: hidden;
 }
 
-
+footer{
+    float:left;
+}
 
 header h1 {
     float: left;
@@ -52,22 +54,17 @@ section.hero {
     background-color:#181818;
     color:#ffffff;
     
-    padding: 3px 0 0 24px;
+    padding: 3px 0 0 130px;
 }
 
 section.hero h1{
     float:left;
     position:relative;
-    padding: .5px 8px;
+    padding: .5px 1px;
     transition: color;
     
 }
 
 section.hero h1:hover {
     color:#feea34;
-}
-
-footer{
-    float:left;
-    margin: 2px 20px
 }
