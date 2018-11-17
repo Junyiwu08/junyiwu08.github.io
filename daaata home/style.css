@@ -2,11 +2,11 @@
     box-sizing: border-box;
 }
 img {
-    max-width: 130%;
+    max-width: 100%;
 }
 body {
     font-family: Helvetica;
-    font-size: 19px;
+    font-size: 20px;
     line-height:1.3;
     
     background-color: #181818;
@@ -36,7 +36,7 @@ header nav{
 }
 
 header nav a{
-    font-size:25px;
+    font-size:20px;
     text-decoration: none;
     color:#ffffff;
     margin:0 25px;
