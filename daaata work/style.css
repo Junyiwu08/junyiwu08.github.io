@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
 }
-img {
+header img {
     max-width: 100%;
 }
 
@@ -45,23 +45,69 @@ header nav a:hover {
     border-bottom:1px solid #ffffff;
 }
 
+section.hero div{
+    Width:300px;
+    margin:20px;
+    position:relative;
+    display:inline-table;
+}
+
 section.hero {
     background-size: cover;
     background-position: center;
     background-color:#181818;
     color:#ffffff;
     
-    padding: 10px 0 10px 0;
+    padding: 10px 0 0px 20px;
 }
 
-section.hero h1{
-    float:left;
-    position:relative;
-    padding: 1px 8px;
-    transition: color;
-    margin:0 6px;
+div h4 {
+    position:absolute;
+    top: 50px;
+    left: -20px;
+    width: 250px;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: left;
+    opacity: 0;
+    transition: opacity 1s;
 }
 
-section.hero h1:hover {
-    color:#feea34;
+div:hover h4 {
+    opacity: 1;
+    color:yellow
+}
+
+div p{
+    position:absolute;
+    bottom:-20px;
+    right:20px;
+    font-size:36px;
+    opacity:0; 
+    transition:opacity 1s;
+}
+div p:hover {
+    opacity: 1;
+}
+
+section.hero img{
+    width:100%;
+    opacity:1;
+    transition: 1s;
+}
+
+section.hero img:hover {
+    opacity:0.5;
+}
+
+div.large img {
+    width:420px;
+}
+
+div.small img{
+    width:200px
+}
+
+div.medium img{
+    width:350px
 }
