@@ -57,7 +57,8 @@ section{
 }
 
 section h1 {
-    font-size:12px;
+    font-size:20px;
+    font-weight:bolder;
     padding:50px 20px 0 0;
 }
 
@@ -98,4 +99,20 @@ nav.app img{
 nav.frame img{
     width:500px;
     padding:0 0 0 50px;
+}
+
+footer{
+    padding:120px 0 100px;
+    max-width: 960px;
+    margin: 0 auto 0 auto;
+    overflow: hidden;
+}
+
+footer a{
+    text-decoration: none;
+    color:#ffffff;
+    font-size:16px;
+}
+div.jy {
+    padding:10px 0 5px;
 }
