@@ -52,6 +52,12 @@ section.hero div{
     display:inline-table;
 }
 
+section.hero a{
+    font-size:20px;
+    text-decoration: none;
+    color:#ffffff;
+}
+
 section.hero {
     background-size: cover;
     background-position: center;
