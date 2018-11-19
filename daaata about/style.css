@@ -28,11 +28,13 @@ div.wrap{
 
 header h1 {
     float: left;
-    width: 100px;
+    width: 125px;
+    padding:10px
 }
 
 header nav{
     float: right;
+    padding:15px;
 }
 
 header nav a{
