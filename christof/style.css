@@ -82,3 +82,10 @@ nav.headtype h1:hover{
     color:yellow;
 }
 
+nav.interview img{
+    width:350px;
+}
+
+nav.mission img{
+    width:650px;
+}
