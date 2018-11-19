@@ -16,7 +16,6 @@ body {
 header {
     background-color:#181818;
     color:#ffffff;
-    border-top: 4px solid #feea34;
 }
 
 div.wrap {
@@ -31,11 +30,13 @@ footer{
 
 header h1 {
     float: left;
-    width: 100px;
+    width: 125px;
+    padding:10px
 }
 
 header nav{
     float: right;
+    padding:15px;
 }
 
 header nav a{
