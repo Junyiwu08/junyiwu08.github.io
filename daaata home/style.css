@@ -1,11 +1,12 @@
 * {
     box-sizing: border-box;
 }
+
 img {
     max-width: 100%;
 }
 body {
-    font-family: Helvetica;
+    font-family:'Righteous', cursive;
     font-size: 20px;
     line-height:1.3;
     
@@ -57,14 +58,16 @@ section.hero {
     padding: 3px 0 0 130px;
 }
 
-section.hero h1{
+section.hero div{
     float:left;
-    position:relative;
-    padding: .5px 1px;
+    position:absolute;
+    top:280px;
+    font-size: 100px;
     transition: color;
+    padding: 20px
     
 }
 
-section.hero h1:hover {
+section.hero div:hover {
     color:#feea34;
 }
