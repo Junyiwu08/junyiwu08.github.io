@@ -22,7 +22,6 @@ body {
 header {
     background-color:#181818;
     color:#ffffff;
-    border-top: 4px solid #feea34;
 }
 
 div.wrap{
@@ -66,7 +65,7 @@ section h1 {
 
 section p{
     max-width:800px;
-    padding:50px 50px;
+    padding:50px 20px 100px 0 ;
 }
 
 section p:hover{
@@ -86,11 +85,13 @@ nav.headtype h1:hover{
 }
 
 nav.interview img{
-    width:350px;
+    max-width:475px;
+    margin:0 1.3px;
+    
 }
 
 nav.mission img{
-    width:650px;
+    width:auto;
 }
 
 nav.app img{
@@ -99,8 +100,7 @@ nav.app img{
 }
 
 nav.frame img{
-    width:500px;
-    padding:0 0 0 50px;
+    width:1500px;
 }
 
 footer{
