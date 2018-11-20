@@ -53,7 +53,6 @@ header nav a:hover {
 section.hero {
     background-size: cover;
     background-position: center;
-    background-color:#181818;
     color:#ffffff;
     
     padding: 3px 0 0 130px;
@@ -71,4 +70,49 @@ section.hero div{
 
 section.hero div:hover {
     color:#feea34;
+}
+
+#myVideo {
+    position: absolute;
+    top:850px;
+    left:-95px;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+
+div.diagram img{
+    position:relative;
+    top:2100px;
+    font-size: 100px; 
+}
+
+section h1{
+    color:#ffffff;
+    position:relative;
+    top:2000px;
+    font-size: 100px;
+    transition: color;
+    padding: 2px;
+}
+
+section h4{
+    float:left;
+    color:#ffffff;
+    position:relative;
+    top:2000px;
+    padding:20px;
+    
+    
+}
+section h1:hover{
+    color:yellow;
+}
+
+section.wjy {
+    background-size: cover;
+    background-position: center;
+    color:#ffffff;
+    
+    padding: 3px 0 0 130px;
 }
