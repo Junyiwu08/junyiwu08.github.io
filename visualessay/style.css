@@ -121,7 +121,7 @@ div.slideout {
     top:0;
     width: 300px;
     height: 100%;
-    background-color: pink;
+    background-color: #1f1f1f;
     left: -300px;
     transition: left 1s;
 }
@@ -140,7 +140,7 @@ nav {
 
 nav a {
     display: block;
-    color:#000000;
+    color:#ffffff;
     text-decoration: none;
     margin: 10px 0;
 }
