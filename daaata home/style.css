@@ -13,9 +13,16 @@ body {
     background-color: #181818;
 }
 
-header {
-    background-color:#181818;
-    color:#ffffff;
+header{
+    text-align: center;
+    margin: 0 0 40px 0;
+}
+
+header img{
+    padding: 150px 0 0 0 ;
+    max-width: 230px;
+    border-bottom: 1.5px solid #ffffff;
+    border-left: 1.5px solid #ffffff;
 }
 
 div.wrap {
@@ -28,26 +35,9 @@ footer{
     float:left;
 }
 
-header img {
-    float: right;
-    width: 230px;
-    padding:10px
-}
 
-header nav{
-    float: right;
-    padding:15px;
-}
-
-header nav a{
-    font-size:20px;
-    text-decoration: none;
-    color:#ffffff;
-    margin:0 25px;
-}
-
-header nav a:hover {
-    border-bottom:1px solid #ffffff;
+div.hamburger nav a:hover {
+    border-bottom:2px solid #000000;
 }
 
 section.hero {
@@ -56,16 +46,16 @@ section.hero {
     background-position: center;
     color:#ffffff;
     
-    padding: 0 0 0 80px;
+    padding: 0 0 0 50px;
 }
 
 section.hero div{
     float:left;
     position:absolute;
-    top:288px;
+    top:600px;
     font-size: 100px;
     transition: color;
-    padding: 20px
+    padding: 20px 0 20px 40px
     
 }
 
@@ -75,7 +65,7 @@ section.hero div:hover {
 
 #myVideo {
     position: relative;
-    top:800px;
+    top:600px;
     bottom: 0;
     max-width: 100%; 
     max-height: 100%;
@@ -83,14 +73,14 @@ section.hero div:hover {
 
 div.diagram img{
     position:relative;
-    top:1200px;
+    top:950px;
     font-size: 100px;
 }
 
 section h1{
     color:#ffffff;
     position:relative;
-    top:1000px;
+    top:800px;
     font-size: 100px;
     transition: color;
     padding: 2px;
@@ -100,7 +90,7 @@ section h4{
     float:left;
     color:#ffffff;
     position:relative;
-    top:1000px;
+    top:800px;
     padding:2px;
     
     
@@ -123,7 +113,7 @@ footer {
     background-color: center;
     color:#ffffff;
     position:relative;
-    top:1200px;
+    top:900px;
     margin:170px 40px 100px;
 }
 
