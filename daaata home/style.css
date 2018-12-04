@@ -21,8 +21,8 @@ header{
 header img{
     padding: 150px 0 0 0 ;
     max-width: 230px;
-    border-bottom: 1.5px solid #ffffff;
-    border-left: 1.5px solid #ffffff;
+    border-bottom: 1px solid #ffffff;
+    border-left: 0px solid #ffffff;
 }
 
 div.wrap {
