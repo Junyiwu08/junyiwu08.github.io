@@ -19,3 +19,19 @@ h2{
     font-size: 14px;
     margin: 10px 0;
 }
+
+article{
+    overflow:hidden;
+}
+
+a {
+    float:left;
+    width:390px;
+    margin:5px;
+    border:5px solid transparent;
+    transition: all .5s;
+}
+
+a.clicked {
+    border: 5px solid #ff0000;
+}
