@@ -46,16 +46,16 @@ section.hero {
     background-position: center;
     color:#ffffff;
     
-    padding: 0 0 0 50px;
+    padding: 0 0 0 65px;
 }
 
 section.hero div{
     float:left;
     position:absolute;
-    top:600px;
+    top:700px;
     font-size: 100px;
     transition: color;
-    padding: 20px 0 20px 40px
+    padding: 20px 0 20px 50px
     
 }
 
@@ -65,7 +65,7 @@ section.hero div:hover {
 
 #myVideo {
     position: relative;
-    top:600px;
+    top:700px;
     bottom: 0;
     max-width: 100%; 
     max-height: 100%;
