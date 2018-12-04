@@ -1,0 +1,21 @@
+body {
+    font-family: helvetica;
+    font-size: 16px;
+    margin: 50px auto 100px auto;
+    max-width: 800px;
+    text-align: center;
+}
+
+header {
+    margin: 0 0 50px 0;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 14px;
+    margin: 10px 0;
+}
