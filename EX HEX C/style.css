@@ -6,7 +6,7 @@ header img {
 }
 
 body {
-    font-family:'Righteous', cursive;
+    font-family:'ezzoblack';
     font-size: 20px;
     line-height:1.3;
     color:white;
@@ -52,23 +52,13 @@ section{
     font-size:23px;
 }
 
-section h1 {
-    font-size:13px;
-    padding:50px 20px 0 0;
+section.passange img{
+    width:300px;
+    opacity: 1;
+    transition: 1s;
 }
 
-section p{
-    max-width:800px;
+section.passange img:hover {
+    opacity: 0.5;
 }
 
-section p:hover{
-    color:yellow;
-}
-
-section p.contact{
-    max-width:300px
-}
-
-p {
-    font-family: Comfortaa, cursive;
-}
