@@ -62,3 +62,11 @@ section.passange img:hover {
     opacity: 0.5;
 }
 
+div.wrap p{
+    font-size: 16px;
+    transition: color;
+    text-align: justify;
+}
+div.wrap:hover p{
+    color: yellow;
+}
